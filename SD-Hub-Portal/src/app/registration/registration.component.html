@@ -1,20 +1,12 @@
+<h2>Student Registration Form</h2>
 <!DOCTYPE html>
+
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Registration Form</title>
-  <link rel="stylesheet" href="registration.component.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-1ZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9s+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <script src="./script.js" type="text/javascript"></script>
-</head>
 
 <body>
   <div class="wrapper">
-    <div class="title">SDHub REGISTRATION FORM
+    <div class="title">Student Registration Form
     </div>
     <form action="POST" data-netlify="true">
       <div class="form">
@@ -92,6 +84,7 @@
         <div class="inputfield">
           <label>State</label>
           <div class="custom_select">
+            
             <select id="state" name="state" required>
               <option value="">--Select your state--</option>
               <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
@@ -131,7 +124,6 @@
               <option value="Uttar Pradesh">Uttar Pradesh</option>
               <option value="Uttarakhand">Uttarakhand</option>
               <option value="West Bengal">West Bengal</option>
-              <option value="Quba Colony">Quba Colony</option>
             </select>
           </div>
         </div>
@@ -140,7 +132,6 @@
           <label>Pin Code</label>
           <input type="text" class="input" name="pincode" placeholder="Enter your pin code" maxlength="6"
             pattern="^[0-9]{6}$" required>
-            
         </div>
 
         <div class="inputfield" id="hobbies" >
@@ -176,7 +167,7 @@
         </div>
 
         <div class="inputfield btns" id="btn">
-          <button type="submit" value="Register" class="btn" onclick="checkPassword()"><a href="signin">Register</a></button>
+          <button type="submit" value="Register" class="btn" onclick="checkPassword()">Register</button>
           <button type="reset" value="Reset" class="btn">Reset</button>
         </div>
 
