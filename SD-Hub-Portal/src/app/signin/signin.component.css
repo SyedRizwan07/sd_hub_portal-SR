@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
+
+
 * {
 	box-sizing: border-box;
+}
+.loginbody {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	margin-top:10%;
+    
 }
 
 
