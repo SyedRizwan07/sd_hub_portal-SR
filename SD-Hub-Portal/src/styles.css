@@ -1,15 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
 
-html,
-body {
-    height: 100vp;
-    width: 100vp;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-.bgchange {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

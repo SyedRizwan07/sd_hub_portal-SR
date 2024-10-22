@@ -1,5 +1,5 @@
 {
-  "name": "sd-hub-portal",
+  "name": "sdhub-portal",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
